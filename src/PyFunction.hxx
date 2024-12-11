@@ -71,8 +71,7 @@ public:
     PyPtr result = safeEval(args...);
     if(!result)
     {
-      std::string errorMessage = "Failed to execute python function.\n";
-      throw ExecutionException(errorMessage+getLastPyError());
+      throw ExecutionException(getLastPyError());
     }
     return result;
   }
