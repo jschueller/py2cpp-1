@@ -16,7 +16,7 @@
 #
 # See http://www.salome-platform.org/ or email : webmaster.salome@opencascade.com
 #
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.18)
 project(py2cpp)
 
 
